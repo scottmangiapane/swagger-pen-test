@@ -9,6 +9,7 @@ info:
         <script>
             alert("JS injection");
         </script>
+        <img src="." onerror="alert(\"Indirect JS injection\")" />
     </body>
 </html>
 '
